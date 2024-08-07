@@ -17,5 +17,5 @@
     "static": false,
     "isDraggable": true,
     "isResizable": true,
-    "component_name": "search-input"
+    "component_name": ""
 }
