@@ -3,8 +3,8 @@ Vue.component('faq_accordion_1723013592', {
     <div>
       <section class="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 md:px-8 bg-white">
         <div class="space-y-3 text-center">
-          <h1 class="text-4xl text-gray-800 font-semibold pt-10">FAQ_TITLE_PLACEHOLDER_TEXT</h1>
-          <p class="text-gray-600 max-w-lg mx-auto text-lg">FAQ_SUBTITLE_PLACEHOLDER_TEXT</p>
+          <h1 class="text-4xl text-gray-800 font-semibold pt-10">Building Mobile Apps: Your Questions Answered</h1>
+          <p class="text-gray-600 max-w-lg mx-auto text-lg">Get the inside scoop on creating amazing mobile experiences.</p>
         </div>
         <div class="mt-14 max-w-2xl mx-auto">
           <div v-for="(item, index) in faqs" :key="index" class="space-y-5 mt-5 overflow-hidden border-b border-gray-200 hover:bg-gray-50 cursor-pointer" @click="toggleFaq(index)">
@@ -30,24 +30,24 @@ Vue.component('faq_accordion_1723013592', {
       selectedFaq: null,
       faqs: [
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_1",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_1"
+          q: "What platforms does this app support?",
+          a: "Our app development platform supports building native apps for iOS and Android, as well as cross-platform apps using technologies like React Native and Flutter."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_2",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_2"
+          q: "How long does it take to build an app?",
+          a: "Development timelines can vary greatly depending on the complexity of the app. Simple apps may take weeks, while more advanced apps with many features can take months. We work closely with you to set realistic expectations."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_3",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_3"
+          q: "What kinds of apps can you build?",
+          a: "We have experience building all types of mobile apps - games, productivity tools, social networks, ecommerce apps, and more. Our team can bring your unique app idea to life."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_4",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_4"
+          q: "How much does app development cost?",
+          a: "Costs depend on the scope and complexity of the project. We provide detailed quotes after discussing your requirements. Our transparent pricing means no surprise fees."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_5",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_5"
+          q: "Do you offer ongoing maintenance and support?",
+          a: "Absolutely. After launch, we can provide maintenance, updates, and support to ensure your app continues running smoothly and stays compatible with new OS versions."
         }
       ]
     }
