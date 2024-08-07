@@ -8,7 +8,7 @@
     "w": 7,
     "h": 7,
     "x": 2,
-    "y": 35,
+    "y": 28,
     "i": "8",
     "minW": 3,
     "maxW": 12,
@@ -17,5 +17,5 @@
     "static": false,
     "isDraggable": true,
     "isResizable": true,
-    "component_name": ""
+    "component_name": "faq-accordion"
 }
